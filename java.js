@@ -1,6 +1,6 @@
 // Fonction pour animer le titre en fondu et déplacement
 function animateTitle() {
-    const title = document.getElementById("title");
+    const title = document.getElementById("Maxime Kunsch");
     let opacity = 0;
     let position = -50; // Position initiale en haut de l'écran
 
