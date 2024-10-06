@@ -1,6 +1,4 @@
-window.onload = function() {
-    alert("Maxime est trop beau !");
-}
+
 
 // Fonction pour animer le titre en fondu et déplacement
 function animateTitle() {
