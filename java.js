@@ -1,5 +1,5 @@
 window.onload = function() {
-    alert("Bienvenue sur mon site !");
+    alert("Maxime est trop beau !");
 }
 
 // Fonction pour animer le titre en fondu et déplacement
