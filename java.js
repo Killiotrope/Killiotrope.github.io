@@ -1,5 +1,3 @@
-
-
 // Fonction pour animer le titre en fondu et déplacement
 function animateTitle() {
     const title = document.getElementById("title");
