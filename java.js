@@ -6,10 +6,10 @@ function animateTitle() {
 
     function step() {
         if (opacity < 1) {
-            opacity += 0.01;
+            opacity += 0.005;
             position += 1;
             title.style.opacity = opacity;
-            title.style.top = position + "px";
+            title.style.top = position;
             requestAnimationFrame(step);
         }
     }
