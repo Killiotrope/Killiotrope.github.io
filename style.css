@@ -37,10 +37,21 @@ footer {
 }
 
 /* Style pour l'animation */
-#title {
+title {
     font-size: 2rem;
     margin: 20px 0;
     opacity: 0;
     position: relative;
     top: -50px;
 }
+
+main-image {
+    width: 100%; /* L'image prend toute la largeur de l'écran */
+    max-width: 600px; /* Limite la taille de l'image à 600px de largeur */
+    height: auto; /* Garde les proportions de l'image */
+    display: block;
+    margin: 20px auto; /* Centrer l'image et ajouter des marges autour */
+    border-radius: 10px; /* Ajoute des coins arrondis */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Effet d'ombre autour de l'image */
+}
+
