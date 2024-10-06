@@ -6,7 +6,7 @@ function animateTitle() {
 
     function step() {
         if (opacity < 1) {
-            opacity += 0.005;
+            opacity += 0.01;
             position += 1;
             title.style.opacity = opacity;
             title.style.top = position;
