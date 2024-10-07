@@ -54,6 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // Exécuter l'animation lorsque la page est chargée
 window.onload = function() {
     animateTitle();
+    var music = document.getElementById("background-music");
+    music.play();
 };
 
 
